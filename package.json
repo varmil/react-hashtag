@@ -1,6 +1,6 @@
 {
   "name": "react-hashtag",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description":
     "React hashtags parser with custom renderer and click action on each hashtag.",
   "main": "dist/react-hashtag.js",
@@ -22,14 +22,15 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "hashtag-regex": "^2.0.0",
     "jest": "^23.1.0",
     "microbundle": "^0.4.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
   "peerDependencies": {
+    "hashtag-regex": "^2.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
-  },
-  "dependencies": {}
+  }
 }
